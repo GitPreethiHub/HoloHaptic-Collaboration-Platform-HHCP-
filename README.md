@@ -74,7 +74,7 @@ The emotion recognition component is powered by TensorFlow and the EmoReact data
 ##### Collaboration Data: 
 Datasets from OpenPose and ShapeNet are used to enhance 3D modeling and motion capture capabilities
 
-2. Design Architecture
+### Design Architecture
 The architecture of HHCP is a multi-layered system that integrates hardware, software, and cloud-based infrastructure to enable immersive, real-time
 collaboration.
 ##### 2.1 Holographic Display Unit:
@@ -96,12 +96,12 @@ collaboration.
 ##### 2.5 User Interface and Experience:
 1. Dashboard Design: A central dashboard provides users with easy access to all collaboration tools, including 3D modeling, team interactions, and file sharing. The UI is customizable, allowing users to configure tools based on the task at hand (e.g., creative design, technical engineering, or healthcare consultations).
 2. Voice and Gesture Controls: The system supports natural language processing and gesture-based commands, allowing users to control their environment without needing traditional input devices like keyboards or mice.
-#### Data Flow:
+### Data Flow:
 The data flow within HHCP is designed to optimize real-time interactions while ensuring security and scalability. 
 a. Input Stage: Users’ movements and interactions are captured through motion sensors and haptic gloves. This data includes body positions, hand movements, and finger gestures.
 b. Processing Stage: Data is transmitted to the cloud server, where it is processed using deep learning models to interpret actions. Simultaneously, AI algorithms analyze emotional cues to adapt the user interface. 
 c. Output Stage: The processed data is sent back to users, updating their holographic display with real-time changes and providing tactile feedback through the haptic gloves. This feedback is synchronized across all participants to ensure a unified experience.
-#### Hardware and Software Requirements:
+### Hardware and Software Requirements:
 The HHCP platform requires a combination of hardware and software to function
 effectively.
 ##### Hardware Requirements:
