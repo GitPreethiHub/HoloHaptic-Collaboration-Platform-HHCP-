@@ -1,0 +1,12 @@
+name: hhcp
+channels:
+  - defaults
+dependencies:
+  - flask
+  - flask-socketio
+  - requests
+  - numpy
+  - opencv
+  - pip
+  - pip:
+    - ibm-watson
